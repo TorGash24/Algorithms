@@ -4,10 +4,12 @@ public class Code {
     public static String OddEven (int number) {
         // Тернарный оператор
         // return number % 2 !=0 ? "Odd" : "Even";
-        if (number % 2 != 0) {
+        if (number % 2 == 0) {
+            return "Even";
+        } else if (number % 2 !=0){
             return "Odd";
         } else {
-            return "Even";
+            return "Undefined";
         }
     }
 
