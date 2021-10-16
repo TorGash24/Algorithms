@@ -1,7 +1,7 @@
 import java.util.Locale;
-public class Code {
+public class OddEven {
 
-    public static String OddEven (int number) {
+    public static String oddEven (int number) {
         // Тернарный оператор
         // return number % 2 !=0 ? "Odd" : "Even";
         if (number % 2 == 0) {
