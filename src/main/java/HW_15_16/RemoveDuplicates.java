@@ -1,3 +1,5 @@
+package HW_15_16;
+
 public class RemoveDuplicates {
 
 //    public static int [] removeDuplicates (int [] array) {

@@ -1,3 +1,5 @@
+package HW_15_16;
+
 public class ArrayNumberMaxMinAvg {
 
     public int [] arrayNumberMaxMinAvg (int [] array) {

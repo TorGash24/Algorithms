@@ -1,4 +1,5 @@
-import java.util.Locale;
+package HW_15_16;
+
 public class OddEven {
 
     /* Создать алгоритм OddEven, который примет на вход число, вернет “Odd”,

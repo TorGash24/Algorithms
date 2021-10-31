@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package HW_15_16;
 
 public class AscendingSequence {
 

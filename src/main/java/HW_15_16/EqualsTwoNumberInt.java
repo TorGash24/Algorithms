@@ -1,3 +1,5 @@
+package HW_15_16;
+
 public class EqualsTwoNumberInt {
 
     /* Напишите метод, который принимает на вход 2 любых int числа, и возвращает
