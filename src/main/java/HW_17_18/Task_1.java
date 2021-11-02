@@ -6,22 +6,17 @@ public class Task_1 {
         “QAForEveryone”
         “Java lessons are fun”
     */
-    public String returnLetters (String string) {
-        StringBuilder result = new StringBuilder();
-        if (string.length() == 0) {
-            return null;
-        }
-        for (int i = 0; i < string.length(); i++) {
-            if (string.toLowerCase().charAt(i) == 'q') {
-                result.append(string.charAt(i));
-            }
-            if (string.toLowerCase().charAt(i) == 'o') {
-                result.append(string.charAt(i));
-            }
-            if (string.toLowerCase().charAt(i) == 'r') {
-                result.append(string.charAt(i));
+    public String returnLetters(String string) {
+        String result = "";
+        if (string == null || string.length() == 0) {
+            return "Noting to print, string is empty";
+        } else {
+            for (int i = 0; i < string.length(); i++) {
+                if (string.toLowerCase().charAt(i) == 'q' || string.toLowerCase().charAt(i) == 'r' || string.toLowerCase().charAt(i) == 'o') {
+                    result += string.toLowerCase().charAt(i);
+                }
             }
         }
-        return String.valueOf(result);
+        return result;
     }
 }

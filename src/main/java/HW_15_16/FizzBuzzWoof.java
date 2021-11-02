@@ -1,3 +1,5 @@
+package HW_15_16;
+
 import java.util.Arrays;
 
 public class FizzBuzzWoof {

@@ -63,6 +63,7 @@ public class Bottles99SongForWebTest {
                 .append(ENTER);
         return String.valueOf(result);
     }
+
     public static String getText () {
         StringBuilder result = new StringBuilder();
         result.append(TAKE)

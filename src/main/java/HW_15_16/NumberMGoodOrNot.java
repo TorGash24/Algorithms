@@ -1,3 +1,5 @@
+package HW_15_16;
+
 public class NumberMGoodOrNot {
 
     public static String numberMGoodOrNot (int number) {

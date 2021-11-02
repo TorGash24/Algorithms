@@ -1,3 +1,5 @@
+package HW_15_16;
+
 public class FizzBuzzWoofNew {
     public boolean divisibleBy (int a, int i) {
         if (i % a ==0) {
